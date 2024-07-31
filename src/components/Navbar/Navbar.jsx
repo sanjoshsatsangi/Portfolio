@@ -24,19 +24,19 @@ const Navbar = ({ handleScrollTo, refs }) => {
   
             <ul>
               <li>
-                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.heroRef)}>Home</a>
+                <a href="#home" className="menu-item" onClick={() => handleNavClick(refs.heroRef)}>Home</a>
               </li>
               <li>
-                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.skillsRef)}>Skills</a>
+                <a href="#skills" className="menu-item" onClick={() => handleNavClick(refs.skillsRef)}>Skills</a>
               </li>
               <li>
-                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.projectsRef)}>Projects</a>
+                <a href="#projects" className="menu-item" onClick={() => handleNavClick(refs.projectsRef)}>Projects</a>
               </li>
               <li>
-                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.workExperienceRef)}>Work Experience</a>
+                <a href="#work-experience" className="menu-item" onClick={() => handleNavClick(refs.workExperienceRef)}>Work Experience</a>
               </li>
               <li>
-                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.contactMeRef)}>Contact</a>
+                <a href="#contact" className="menu-item" onClick={() => handleNavClick(refs.contactMeRef)}>Contact</a>
               </li>
             </ul>
   
