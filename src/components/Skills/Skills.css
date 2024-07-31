@@ -1,0 +1,135 @@
+.skills-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.skills-container::after,
+.skills-container::before{
+
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+}
+
+.skills-container::after{
+
+    top: -3rem;
+    left: -5rem;
+}
+
+.skills-container::before{
+
+    background: #9e51b9;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+.skills-container h5 {
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.skills-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.skills {
+
+    flex: 1;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills-info {
+    flex: 1;
+}
+
+@media (max-width: 1025px) {
+    .skills {
+        padding-left: 1rem;
+    }
+
+    .skills,
+    .skill-content {
+
+        grid-gap: 2rem;
+    }
+}
+
+@media (max-width: 768px){
+ .skills-content {
+
+    flex-direction: column-reverse;
+    gap: 3rem;
+ }   
+ .skills,
+ .skills-info {
+    width: 100%;
+ }
+
+ .skills-container h5 {
+
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+ }
+
+ .skills-container::after,
+ .skills-container::before {
+    width: 18rem;
+    height: 18rem;
+ }
+
+}
+
+@media (max-width: 600px) {
+
+    .skills-container {
+
+        padding: 0;
+    }
+}
+@media (max-width: 325px) {
+    .skills-container {
+        padding: 1rem; /* Adjust padding for smaller screens */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-container h5 {
+        font-size: 1rem; /* Adjust font size */
+        text-align: center; /* Center the title */
+        margin-bottom: 1.5rem; /* Adjust margin */
+    }
+
+    .skills-content {
+        flex-direction: column-reverse; /* Stack the elements vertically */
+        align-items: center; /* Center align items */
+        gap: 1rem; /* Reduce gap between elements */
+    }
+
+    .skills {
+        width: 100%; /* Ensure skills take full width */
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(2, 1fr); /* Maintain two skills per row */
+        justify-items: center; /* Center align items */
+        justify-content: center;
+    }
+
+    .skills-info {
+        width: 100%; /* Ensure skills-info takes full width */
+        text-align: center; /* Center the text */
+    }
+}
+
