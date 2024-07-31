@@ -11,7 +11,7 @@ const Navbar = ({ handleScrollTo, refs }) => {
   
     const handleNavClick = (sectionRef) => {
       handleScrollTo(sectionRef);
-      setOpenMenu(false); // Close the mobile menu after clicking a link
+      setOpenMenu(false);
     };
   
     return (
@@ -24,19 +24,19 @@ const Navbar = ({ handleScrollTo, refs }) => {
   
             <ul>
               <li>
-                <a className="menu-item" onClick={() => handleNavClick(refs.heroRef)}>Home</a>
+                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.heroRef)}>Home</a>
               </li>
               <li>
-                <a className="menu-item" onClick={() => handleNavClick(refs.skillsRef)}>Skills</a>
+                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.skillsRef)}>Skills</a>
               </li>
               <li>
-                <a className="menu-item" onClick={() => handleNavClick(refs.projectsRef)}>Projects</a>
+                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.projectsRef)}>Projects</a>
               </li>
               <li>
-                <a className="menu-item" onClick={() => handleNavClick(refs.workExperienceRef)}>Work Experience</a>
+                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.workExperienceRef)}>Work Experience</a>
               </li>
               <li>
-                <a className="menu-item" onClick={() => handleNavClick(refs.contactMeRef)}>Contact</a>
+                <a href="#" className="menu-item" onClick={() => handleNavClick(refs.contactMeRef)}>Contact</a>
               </li>
             </ul>
   
