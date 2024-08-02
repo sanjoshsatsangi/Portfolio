@@ -2,15 +2,6 @@
 
 Welcome to my portfolio! This project showcases my skills and projects using a responsive and stylish design. It is built with React.js and styled with CSS3.
 
-## Table of Contents
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 - **Responsive Design:** Adapts seamlessly to different screen sizes, providing an optimal viewing experience on both desktop and mobile devices.
