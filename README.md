@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio! This project showcases my skills and projects using a responsive and stylish design. It is built with ReactJS and styled with CSS3.
+Welcome to my portfolio! This project showcases my skills and projects using a responsive and stylish design. It is built with React.js and styled with CSS3.
 
 ## Table of Contents
 - [Features](#features)
