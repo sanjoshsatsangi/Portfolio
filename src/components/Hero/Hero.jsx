@@ -21,7 +21,7 @@ const Hero = () => {
                 <img src="./assets/images/LN.png" alt="" />
                 </a>
             </div>
-            <img src="./assets/images/new hero.png" alt="" />
+            <img src="./assets/images/heros1.png" alt="" />
             <div className="tech-icon">
             <a href="https://github.com/sanjoshsatsangi" target="_blank" rel="noopener noreferrer" className='tech-icon'>
             <img src="./assets/images/GHB.png" alt="New Logo" />
