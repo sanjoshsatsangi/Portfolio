@@ -8,8 +8,8 @@ const MobileNav = ({ isOpen, toggleMenu, handleScrollTo, refs }) => {
     };
   
     return (
-      <div className={`mobile-menu ${isOpen ? 'active' : ''}`}>
-        <div className="mobile-menu-container">
+      <div className={`mobile-menu ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
+                <div className="mobile-menu-container" onClick={(e) => e.stopPropagation()}>
           <img className="logo" src="./assets/images/logo.png" alt="Logo" />
           <ul>
             <li>
