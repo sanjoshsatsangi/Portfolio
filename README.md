@@ -19,8 +19,9 @@ Welcome to my portfolio! This project showcases my skills and projects using a r
 ## Screenshots 📸
 
 
-![Weather App Demo](https://github.com/user-attachments/assets/15a12362-a1d3-4e00-8a3f-f0d97c3ab5af)
+
+![Portfolio Demo](https://github.com/user-attachments/assets/e751c668-d635-4b9c-9d0b-08201733e012)
 
 ## Live Demo 🌐
 
-Check out the live demo here: [Weather App on Netlify](https://sanjoshweatherapp.netlify.app/)
+Check out the live demo here: [Portfolio](https://sanjoshportfolio.netlify.app/)
