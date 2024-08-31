@@ -14,3 +14,13 @@ Welcome to my portfolio! This project showcases my skills and projects using a r
 - **Projects:** Showcase of my projects with descriptions and links.
 - **Work Experience:** Summary of my professional experience and roles.
 - **Contact:** Information on how to get in touch with me.
+
+
+## Screenshots 📸
+
+
+![Weather App Demo](https://github.com/user-attachments/assets/15a12362-a1d3-4e00-8a3f-f0d97c3ab5af)
+
+## Live Demo 🌐
+
+Check out the live demo here: [Weather App on Netlify](https://sanjoshweatherapp.netlify.app/)
