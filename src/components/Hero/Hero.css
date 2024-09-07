@@ -203,42 +203,42 @@
 
 @media (max-width: 325px) {
     .hero-container {
-        padding: 1rem; /* Adjust padding for smaller screens */
+        padding: 1rem;
     }
 
     .hero-content h2 {
-        font-size: 1.8rem; /* Adjust font size for smaller screens */
-        line-height: 2.5rem; /* Adjust line height for readability */
-        margin-top: 1rem; /* Add top margin */
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin-top: 1rem;
     }
 
     .hero-content p {
-        font-size: 0.7rem; /* Adjust font size for readability */
-        line-height: 1rem; /* Adjust line height */
-        max-width: 90%; /* Ensure text doesn't overflow */
-        margin: 0 auto; /* Center text block */
+        font-size: 0.7rem;
+        line-height: 1rem;
+        max-width: 90%;
+        margin: 0 auto; 
     }
 
     .hire-me-button {
-        padding: 0.5rem 1rem; /* Adjust padding */
-        font-size: 0.8rem; /* Adjust font size */
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
     }
 
     .hero-img {
-        gap: 0.5rem; /* Reduce gap between elements */
-        margin-top: 1rem; /* Adjust top margin */
+        gap: 0.5rem;
+        margin-top: 1rem;
     }
 
     .hero-img > div > img {
-        max-width: 12rem; /* Adjust image size */
+        max-width: 12rem;
     }
 
     .tech-icon {
-        width: 2.5rem; /* Adjust icon size */
-        height: 2.5rem; /* Adjust icon size */
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     .tech-icon img {
-        width: 1.5rem; /* Adjust image size within icon */
+        width: 1.5rem;
     }
 }
