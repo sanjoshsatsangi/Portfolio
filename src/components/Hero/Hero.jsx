@@ -8,7 +8,7 @@ const Hero = () => {
             <h2>Sanjosh Satsangi</h2>
             <p>
             A driven student pursuing Bachelor of Technology in Electronics and Communication at the esteemed Indian Institute of Information Technology (IIIT) Bhopal. 
-            My academic journey is fueled by a profound passion for technology and a dedicated focus on honing my coding skills, particularly as a Java developer. 
+            My academic journey is fueled by a profound passion for technology and a dedicated focus on honing my coding skills, particularly as a Frontend developer. 
             With a keen interest in software development, I am committed to leveraging my education to tackle complex challenges and contribute meaningfully to the field of technology.
             </p>
             <a href="https://drive.google.com/file/d/1xHMIhezPzUIPmdIcKLQY3sKsKS9TsDq5/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hire-me-button">Hire Me</a>
