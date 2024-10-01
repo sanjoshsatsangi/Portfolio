@@ -11,7 +11,7 @@ const Hero = () => {
             My academic journey is fueled by a profound passion for technology and a dedicated focus on honing my coding skills, particularly as a Frontend Developer. 
             With a keen interest in software development, I am committed to leveraging my education to tackle complex challenges and contribute meaningfully to the field of technology.
             </p>
-            <a href="https://drive.google.com/file/d/1xHMIhezPzUIPmdIcKLQY3sKsKS9TsDq5/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hire-me-button">Hire Me</a>
+            <a href="https://drive.google.com/file/d/1mtzmM5qlI7vzipgB8mz2rb_D6tfeVylq/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hire-me-button">Hire Me</a>
         </div>
 
         <div className="hero-img">
