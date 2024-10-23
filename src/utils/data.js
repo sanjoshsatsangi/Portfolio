@@ -63,6 +63,16 @@ export const MY_PROJECT = [
     link: "https://student-teacherappointment.netlify.app/"
   },
   {
+    title: "Weather App",
+    date: "Peronal Project",
+    responsiblities: [
+        "Made Using React, CSS and OpenWeather API.",
+        "A simple Weather app.", 
+    ],
+    imageUrl: "./assets/images/WA.png",
+    link: "https://sanjoshweatherapp.netlify.app/"
+  },
+  {
       title: "To Do List App",
       date: "Internsip Project",
       responsiblities: [
@@ -74,7 +84,7 @@ export const MY_PROJECT = [
   },
   {
     title: "Zomato Clone",
-    date: "Freelance Project",
+    date: "Personal Project",
     responsiblities: [
         "Made Using HTML, CSS and JavaScript.",
         "A sleek and functional Zomato Clone to efficiently order food online.", 
@@ -85,7 +95,7 @@ export const MY_PROJECT = [
  
 {
   title: "Tic-Tac-Toe",
-  date: "Freelance Project",
+  date: "Personal Project",
   responsiblities: [
       "Made Using HTML, CSS and JavaScript.",
       "A Stylish Tic Tac Toe.", 
